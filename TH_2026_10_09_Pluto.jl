@@ -3,8 +3,8 @@
 
 # ╔═╡ 09102026-0000-4000-8000-000000000001
 begin
-    READ_DATA = false
-    RUN_APP = false
+    READ_DATA = true
+    RUN_APP = true
     ROOT_DATA = joinpath(@__DIR__, "data")
 end
 

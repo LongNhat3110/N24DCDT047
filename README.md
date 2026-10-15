@@ -1,4 +1,66 @@
-# Thực hành Cấu trúc dữ liệu và giải thuật — 09/10/2026
+# BÁO CÁO BÀI TẬP THỰC HÀNH CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT
+**Học viện Công nghệ Bưu chính Viễn thông (PTIT)**  
+**Buổi thực hành 05 — 09/10/2026**
+
+---
+
+### THÔNG TIN SINH VIÊN VÀ NỘP BÀI
+- **Họ và tên**: Từ Lê Nhật Long
+- **Mã số sinh viên (MSSV)**: N24DCDT047
+- **Lớp**: D24CQDT01-N
+- **GitHub Repository**: [https://github.com/LongNhat3110/N24DCDT047](https://github.com/LongNhat3110/N24DCDT047)
+- **Tình trạng hoàn thành**: **60/60 test cases PASSED (100%)**
+  - Phase data: 12/12 PASSED
+  - Phase sort: 8/8 PASSED
+  - Phase search: 5/5 PASSED
+  - Phase bfs: 7/7 PASSED
+  - Phase dp: 12/12 PASSED
+  - Phase app: 16/16 PASSED
+- **File phiếu thực hành hoàn chỉnh**: [`TuLeNhatLong_thuchanhbuoi05.docx`](TuLeNhatLong_thuchanhbuoi05.docx)
+
+---
+
+### HƯỚNG DẪN TÁI LẬP KẾT QUẢ (REPRODUCE INSTRUCTIONS)
+
+1. **Sinh dữ liệu mẫu**:
+   ```bash
+   julia TH_2026_10_09_Sinh_vien.jl --data
+   ```
+
+2. **Chạy kiểm thử từng pha**:
+   ```bash
+   julia TH_2026_10_09_Kiem_thu.jl --phase=data
+   julia TH_2026_10_09_Kiem_thu.jl --phase=sort
+   julia TH_2026_10_09_Kiem_thu.jl --phase=search
+   julia TH_2026_10_09_Kiem_thu.jl --phase=bfs
+   julia TH_2026_10_09_Kiem_thu.jl --phase=dp
+   julia TH_2026_10_09_Kiem_thu.jl --phase=app
+   ```
+
+3. **Chạy toàn bộ bộ kiểm thử (60 phép kiểm tra)**:
+   ```bash
+   julia TH_2026_10_09_Kiem_thu.jl --phase=all
+   ```
+
+4. **Chạy luồng ứng dụng Mini hoàn chỉnh (sinh ket_qua.csv)**:
+   ```bash
+   julia TH_2026_10_09_Sinh_vien.jl --mini
+   ```
+
+5. **Chạy với dữ liệu cá nhân theo MSSV (N24DCDT047)**:
+   ```bash
+   julia TH_2026_10_09_Sinh_vien.jl --data N24DCDT047
+   julia TH_2026_10_09_Sinh_vien.jl N24DCDT047
+   ```
+
+6. **Chạy notebook Pluto / xem kết quả**:
+   ```bash
+   julia TH_2026_10_09_Pluto.jl
+   ```
+
+---
+
+# Đề bài & Hướng dẫn Thực hành — 09/10/2026
 
 Một ứng dụng Julia: điều phối giao đơn trong khuôn viên trường.
 Khung trên lớp: 180 phút. Trình bày theo notebook Julia/Pluto mẫu sau buổi học.
